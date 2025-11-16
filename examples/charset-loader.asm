@@ -53,7 +53,7 @@ fill_screen:
 fill_loop:
     lda z_temp
     sta $0400,y        // character
-    lda #$01           // color = light red
+    lda #$01           // color = white
     sta $d800,y
 
     inc z_temp
