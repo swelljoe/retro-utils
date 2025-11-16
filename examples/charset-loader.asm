@@ -1,6 +1,6 @@
 // --------------------------------------
 // KickAssembler BASIC startup
-// Run code at $1000 when RUN is typed
+// Auto-run code at $1000
 // --------------------------------------
 BasicUpstart2(start)
 
