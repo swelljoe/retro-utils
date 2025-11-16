@@ -57,7 +57,7 @@ def main():
 
         # KickAssembler-style output
         # You can remove the label if you just want raw data.
-        print(f"; char {tile_index:03}")
+        print(f"// char {tile_index:03}")
         print(".byte " + ",".join(f"${b:02x}" for b in rows))
 
 
